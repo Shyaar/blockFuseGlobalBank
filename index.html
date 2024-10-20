@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+   <form action="">
+        <label for="">first name</label><br>
+        <input type="text" id="firstName" placeholder=" Enter your first name"> 
+        <br>
+        <br>
+
+        <label for="">last name</label><br>
+        <input type="text" id="lastName" placeholder="Enter your last name">
+        <br>
+        <br>        
+        
+        <label for="">National Identity Number</label><br>
+        <input type="text" id="nin" placeholder="enter your NIN">
+        <br>
+        <br>
+
+        <label for="">Account Type</label><br>
+        <select class="select" name="" id="selectAccount">
+            <option value="" disabled selected>select account type</option>
+            <option value="Savings">Savings</option>
+            <option value="Current">Current</option>
+            <option value="Domiciliary">Domiciliary</option>
+        </select>
+        <br>
+        <br>
+
+        <a href="transaction.html">
+            <button id="mySubmit">submit</button>
+        </a>
+   </form>
+
+       
+    <div id="Welcome" class="WelcomeMsg">
+
+        <p id="greeting"></p>
+
+        <a href="transaction.html"></a><button id="continue">Continue</button>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
